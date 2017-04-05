@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
+import { TeslaCarComponent } from './../../components/tesla-car/tesla-car.component';
+
 @Component({
   selector: 'tesla-battery',
   templateUrl: './tesla-battery.component.html',
